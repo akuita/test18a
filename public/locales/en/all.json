@@ -23,5 +23,27 @@
   "500": {
     "title": "System Error",
     "description": "Description about system error"
+  },
+  "AttendanceSystem": {
+    "attendance_system": "Attendance System",
+    "time_tracking": "Time tracking",
+    "time_sheet": "Time sheet",
+    "logout": "Logout",
+    "current_date": "Wednesday, 27 September, 2023",
+    "check_in": "Check in",
+    "checked_out": "Checked out",
+    "user_info": "Jack Daniel - Developer"
+  },
+  "shared_components": {
+    "IconWithText": {
+      "logo_alt": "Logo",
+      "timer_icon_alt": "Timer Icon",
+      "calendar_icon_alt": "Calendar Icon",
+      "user_icon_alt": "User Icon"
+    },
+    "Button": {
+      "check_in": "Check in",
+      "checked_out": "Checked out"
+    }
   }
 }
