@@ -23,5 +23,30 @@
   "500": {
     "title": "System Error",
     "description": "Description about system error"
+  },
+  "AttendanceSystem": {
+    "logo_alt": "Company logo",
+    "attendance_system": "Attendance System",
+    "time_tracking_alt": "Time tracking icon",
+    "time_tracking": "Time tracking",
+    "time_sheet_alt": "Time sheet icon",
+    "time_sheet": "Time sheet",
+    "settings_alt": "Settings icon",
+    "employee_info": "Jack Daniel - Developer",
+    "current_date": "Wednesday, 27 September, 2023",
+    "current_time": "08:30:20",
+    "check_in": "Check in",
+    "checked_out": "Checked out"
+  },
+  "Button": {
+    "primary": "Primary Button",
+    "ghost": "Ghost Button",
+    "dashed": "Dashed Button",
+    "link": "Link Button",
+    "text": "Text Button"
+  },
+  "Modal": {
+    "overlay": "Modal Overlay",
+    "modal": "Modal Content"
   }
 }

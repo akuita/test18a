@@ -1,4 +1,8 @@
 @layer button {
+  .rounded {
+    border-radius: 8px;
+  }
+
   .link_tag {
     color: inherit;
     text-decoration: none;
