@@ -23,5 +23,22 @@
   "500": {
     "title": "System Error",
     "description": "Description about system error"
+  },
+  "AttendanceSystem": {
+    "jack_daniel_developer": "Jack Daniel - Developer",
+    "wednesday_september": "Wednesday, 27 September, 2023",
+    "check_in": "Check in",
+    "checked_out": "Checked out"
+  },
+  "shared_components": {
+    "Button": {
+      "link_tag": "Link"
+    },
+    "Modal": {
+      "overlay": "Overlay",
+      "modal_top": "Top",
+      "modal_center": "Center",
+      "modal_default": "Default"
+    }
   }
 }

@@ -1,0 +1,94 @@
+.pageContainer {
+  background-color: rgba(244, 244, 244, 1);
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cardContainer {
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 16px;
+  box-shadow: 0 4px 21px rgba(220, 220, 220, 0.25);
+  width: 500px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  background-color: rgba(231, 231, 231, 1);
+  padding: 12px 0;
+  text-align: center;
+}
+
+.headerText {
+  color: rgba(168, 168, 168, 1);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.content {
+  padding: 20px;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.dateInfo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+
+.dateText {
+  color: rgba(51, 51, 51, 1);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.timeText {
+  color: rgba(51, 51, 51, 1);
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 72px;
+}
+
+.buttonGroup {
+  display: flex;
+  gap: 16px;
+}
+
+.checkInButton {
+  background-color: rgba(61, 84, 249, 1);
+  color: rgba(255, 255, 255, 1);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  border-radius: 8px;
+  border: none;
+  padding: 10px 24px;
+  cursor: pointer;
+}
+
+.checkedOutButton {
+  background-color: rgba(168, 168, 168, 1);
+  color: rgba(255, 255, 255, 1);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  border-radius: 8px;
+  border: none;
+  padding: 10px 24px;
+  cursor: pointer;
+}
+
+.noImage {
+  width: 16px;
+  height: 16px;
+}

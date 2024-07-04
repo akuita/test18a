@@ -1,5 +1,6 @@
 import React from 'react'
 import ReactModal from 'react-modal'
+import { useTranslation } from 'next-i18next'
 import clsx from 'clsx'
 
 import styles from './index.module.css'
