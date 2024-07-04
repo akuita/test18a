@@ -1,0 +1,75 @@
+.pageContainer {
+  background-color: rgba(244, 244, 244, 1);
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 16px;
+  box-shadow: 0 4px 21px rgba(220, 220, 220, 0.25);
+  width: 500px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  background-color: rgba(255, 255, 255, 1);
+  width: 100%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  padding: 0 32px;
+  box-sizing: border-box;
+}
+
+.headerRight {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+}
+
+.content {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+}
+
+.buttonGroup {
+  display: flex;
+  gap: 16px;
+}
+
+.checkInButton {
+  background-color: rgba(61, 84, 249, 1);
+  color: rgba(255, 255, 255, 1);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  border-radius: 8px;
+  width: 112px;
+  height: 40px;
+}
+
+.checkedOutButton {
+  background-color: rgba(168, 168, 168, 1);
+  color: rgba(255, 255, 255, 1);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  border-radius: 8px;
+  width: 112px;
+  height: 40px;
+}
