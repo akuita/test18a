@@ -23,5 +23,54 @@
   "500": {
     "title": "System Error",
     "description": "Description about system error"
+  },
+  "AttendanceSystem": {
+    "title": "Attendance System",
+    "time_tracking": "Time tracking",
+    "time_sheet": "Time sheet",
+    "user_info": "{{name}} - {{role}}",
+    "current_date": "{{date}}",
+    "check_in": "Check in",
+    "checked_out": "Checked out",
+    "check_in_success": "You have successfully checked in!",
+    "check_out_success": "You have successfully checked out!"
+  },
+  "shared_components": {
+    "Image": {
+      "alt": "Image"
+    },
+    "Text": {
+      "content": "Text content"
+    },
+    "IconButton": {
+      "aria_label": "Icon button"
+    },
+    "DateDisplay": {
+      "alt": "Date icon"
+    },
+    "SectionHeader": {
+      "alt": "Section icon"
+    },
+    "TimeDisplay": {
+      "content": "Time display content"
+    },
+    "UserInfo": {
+      "alt": "User icon",
+      "name": "Jack Daniel",
+      "role": "Developer"
+    },
+    "Button": {
+      "link_tag": "Link"
+    },
+    "Modal": {
+      "overlay": "Overlay",
+      "modal_top": "Modal Top",
+      "modal_center": "Modal Center",
+      "modal_default": "Modal Default",
+      "alt": "Modal icon"
+    },
+    "Toast": {
+      "toast_container": "Toast Container"
+    }
   }
 }
